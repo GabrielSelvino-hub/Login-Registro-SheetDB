@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="box">
+        <form class="form">
+            <h2>Sing in</h2>
+            <div class="inputBox" >
+                <input type="email" required="required" autocomplete="off">
+                <span>Email</span>
+                <i></i>
+                
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required" autocomplete="off">
+                <span>Password</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="/singup.html">Signup</a>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <div id="traduzir">
+        <input type="button" onclick="traducao()">
+    </div>
+</body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+<script src="/script.js"></script>
+</html>

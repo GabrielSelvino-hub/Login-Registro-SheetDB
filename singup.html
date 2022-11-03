@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style-sing.css">
+</head>
+<body>
+    <div class="box">
+        <form class="form">
+            <h2>Create account</h2>
+            <div class="inputBox">
+                <input type="text" required="required" autocomplete="off">
+                <span>Username</span>
+                <i></i>
+            </div>
+            <div class="inputBox" >
+                <input type="email" required="required" autocomplete="off">
+                <span>Email</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required" autocomplete="off">
+                <span>Password</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="/index.html">Login</a>
+            </div>
+            <input type="submit" value="Create">
+        </form>
+    </div>
+    <div id="traduzir">
+        <input type="button" value="" onclick="traducao()">
+    </div>
+</body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+<script src="/script.js"></script>
+</html>
