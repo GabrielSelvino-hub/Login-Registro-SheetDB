@@ -61,6 +61,13 @@ function coletar() {
     });
 }
 
+axios.get(url,
+).then( response => {
+    for (var i = 0;i < response.data.length;i++) {
+        console.log(response.data[i]);
+    }
+});
+
 const spost = (event) => {
     event.preventDefault();
     vfemail();
