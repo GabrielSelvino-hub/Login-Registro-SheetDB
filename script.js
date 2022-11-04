@@ -64,7 +64,10 @@ function coletar() {
 axios.get(url,
 ).then( response => {
     for (var i = 0;i < response.data.length;i++) {
-        console.log(response.data[i]);
+        console.log('   email: '+response.data[i].email);
+        console.log('   password: '+response.data[i].password);
+        console.log('   username: '+response.data[i].username);
+        console.log('');
     }
 });
 
